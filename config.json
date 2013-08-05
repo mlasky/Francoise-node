@@ -1,15 +1,23 @@
 {
-  "nick": "Francoise",
-  "userName": "ed",
-  "realName": "Edward",
+  "nick": "GamedevBot",
+  "userName": "bot",
+  "realName": "Slipyx's bot",
   "server": "irc.freenode.net",
   "port": 7000,
   "secure": true,
   "channels": [
-    "#callisto"
+    "#reddit-gamedev"
   ],
   "feeds": [
-    {"name": "r/gaming", "url": "http://www.reddit.com/r/gaming/.rss", "c": "12", "t": 1800},
-    {"name": "r/gamedev", "url": "http://www.reddit.com/r/gamedev/.rss", "c": "11", "t": 1800}
+    {"name": "WolfireGames", "url": "http://feeds.wolfire.com/WolfireGames?format=xml", "c": "5", "t": 1800},
+    {"name": "r/gamedev", "url": "http://www.reddit.com/r/gamedev/new/.rss", "c": "11", "t": 600},
+    {"name": "r/truegamedev", "url": "http://www.reddit.com/r/truegamedev/new/.rss", "c": "11", "t": 600},
+    {"name": "The Optimistic Indie", "url": "http://api.twitter.com/1/statuses/user_timeline.rss?screen_name=optimisticindie", "c": "12", "t": 3600},
+    {"name": "Lunar Enigma", "url": "http://api.twitter.com/1/statuses/user_timeline.rss?screen_name=LunarEnigma", "c": "12", "t": 3600},
+    {"name": "petermolydeux", "url": "http://api.twitter.com/1/statuses/user_timeline.rss?screen_name=PeterMolydeux", "c": "12", "t": 3600},
+    {"name": "Nuclear Horse Studios", "url": "http://api.twitter.com/1/statuses/user_timeline.rss?screen_name=NucHorseStudios", "c": "12", "t": 3600},
+    {"name": "John Carmack", "url": "http://api.twitter.com/1/statuses/user_timeline.rss?screen_name=ID_AA_Carmack", "c": "12", "t": 3600},
+    {"name": "kiwibonga studios", "url": "http://api.twitter.com/1/statuses/user_timeline.rss?screen_name=kiwibonga", "c": "12", "t": 3600},
+    {"name": "Valve Blogs", "url": "http://blogs.valvesoftware.com/feed/", "c": "0,1", "t": 3600}
   ]
 }
